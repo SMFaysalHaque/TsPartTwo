@@ -13,5 +13,6 @@
     // Recommended Options
     "strict": true,
     "skipLibCheck": true,
+    "moduleDetection": "force" // we fix issue globally in this file.
   }
 }
