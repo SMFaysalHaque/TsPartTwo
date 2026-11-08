@@ -23,3 +23,10 @@ const config: Config = {
 
 const currentPort: number = config.port!; //? Non-null assertion using "!" syntax
 const currentPort2: number = config.port as number; //? Type assertion using "as" syntax
+
+// * constant assertion
+
+const configuration = {
+    port: 5000,
+    prefix: "/api/v1",
+} as const; //? Constant assertion using "as const" syntax
